@@ -17,7 +17,7 @@ public class SensorEvents {
     private String id;
 
     @PrimaryKeyColumn(name = "event_ts", ordinal = 1, type = PrimaryKeyType.CLUSTERED)
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss.SSS")
     private Date timestamp;
 
     @Column
