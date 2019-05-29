@@ -7,7 +7,7 @@ kafka:
   topic: events
   # user name and password for your Kafka cluster
   # Its same what you added to your kafka.properties file when creating topic from console
-  username: ickafka
+  username: 
   password:
   consumerGroup: cassandraEventsConsumerGroup
 
@@ -16,5 +16,5 @@ cassandra:
   contactPoints:
   keyspace: training_ks
   port: 9042
-  username:
-  password:
+  username: 
+  password: 
